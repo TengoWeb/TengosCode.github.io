@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;    margin: 0; box-sizing: border-box; list-style: none; scroll-behavior: smooth; text-decoration: none; color: #fff;   
+}
+
+.LandingPage { 
+    position: relative;
+    background-image:url(../assetsForLandingPage/imgBackground\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; width: 100%;
+    padding-left: 128px;
+  
+}
+
+.Navigtion-hodler { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 32px 180px 194px 0px;
+}
+.toggle-btn { 
+    display: flex;
+    align-items: center;
+}
+.burgermenu{ 
+    display: none;
+    width: 25px;
+}
+.toggle-btn button { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color:  #2B0000;
+    background-color: #EFC42B;
+    border-radius: 40px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    border: none;
+}
+.list ul{ 
+    display: flex;
+    gap: 43px
+}
+
+.list ul li { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color:  #FFFFFF;
+}
+
+.Landing-Text-section h1 { 
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    color:  #FFFFFF;
+    margin-bottom: 48px;
+}
+.Landing-Text-section h2 { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color:  #FFFFFF;
+    margin-bottom: 41px;
+}
+.Landing-buttons-holder { 
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    margin-bottom: 92px;
+}
+.Landing-btn { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color:  #2B0000;
+    background-color: #EFC42B;
+    border-radius: 40px;
+    padding: 26px 24px 25px 23px;   
+    cursor: pointer;
+    border: none;
+
+}
+.Landing-player-btn { 
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.subscribe { 
+    font-family:  'Montserrat', sans-serif;
+    color:  #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Landing-backgrounds-images-holder {
+    position: absolute;
+    display: flex;
+    right: 120px; bottom: 70px;
+    gap:35px
+}
+
+.bg1 { 
+    background-image: url(../assetsForLandingPage/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 20px 29px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bg-number { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color:#FFFFFF;
+    margin-bottom: 69px;
+}
+.bg-title { 
+    font-family:  'Montserrat', sans-serif;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+.nameofbg { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg2 { 
+    background-image: url(../assetsForLandingPage/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 20px 29px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bg3 { 
+    background-image: url(../assetsForLandingPage/img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 20px 29px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.bg1:hover,
+.bg2:hover,
+.bg4:hover,
+.bg3:hover {
+  transform: scale(1.1);
+}
+
+.LandingPage-second { 
+    position: relative;
+    background-image: url(../assetsForLandingPage/pexels-amandine-rtla-11678476.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; width: 100%;
+    padding-left: 128px;
+}
+
+.bg4  {
+    background-image:  url(../assetsForLandingPage/imgBackground\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 50px 29px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.LandingPage-third { 
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assetsForLandingPage//backgroundthird.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; width: 100%;
+    padding-left: 128px;
+}
+.LandingPage-fourth { 
+    position: relative;
+    background-image: url(../assetsForLandingPage/norway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; width: 100%;
+    padding-left: 128px;
+}
+
+.section-first { 
+    margin: 80px 0;
+    padding: 0 120px;
+
+}
+.section-box { 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+.section1img img { 
+    width: 40vw;
+}
+.scetion-box-title h1{ 
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.scetion-box-title h3 { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.scetion-box-title button { 
+    border: 2px solid #EFC42B;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family:  'Montserrat', sans-serif;
+    color: #EFC42B;
+    padding: 26px 95px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.section-third { 
+    position: relative;
+    background-image: url(../assetsForSections/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.section-third-holder { 
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top:15%;
+    gap:78px
+    
+}
+
+.section-third-holder-input { 
+    display: flex;
+    flex-direction: column;   
+    gap: 21px
+}
+
+
+
+.section-third-holder-text h1{ 
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 30px;
+   
+}
+
+.section-third-holder-text h3 { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+.section-third-holder-input-nameinput { 
+    font-family:  'Montserrat', sans-serif;
+    border: 1px solid #828282;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #828282;
+    border-radius: 40px;
+    padding: 25px 9px;
+    outline: none;
+    width: 100%;
+}
+.section-third-holder-number-nameinput { 
+    font-family:  'Montserrat', sans-serif;
+    border: 1px solid #828282;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #828282;
+    border-radius: 40px;
+    padding: 25px 9px;
+    outline: none;
+    width: 100%;
+}
+.section-third-holder-input button { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 40px;
+    color: #2B0000;
+    text-align: center;
+    background-color:  #EFC42B;
+    padding: 26px  21px;
+    border: none;
+    cursor: pointer;
+}
+
+.fourth-section { 
+    margin: 160px 0px ;
+    padding: 0 120px;
+}
+
+.fourth-section-holder { 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}    
+.fourth-section-photo-side img{ 
+    width: 100%;
+}
+
+.fourth-section-text-side h1 { 
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.fourth-section-text-side p { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+.fourth-section-text-side button { 
+    border: 2px solid #EFC42B;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family:  'Montserrat', sans-serif;
+    color: #EFC42B;
+    padding: 26px 95px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+
+  
+ 
+
+@media (max-height: 860px) {
+    .Landing-backgrounds-images-holder {
+        top:15%;
+        display: block;
+        right: 10%;
+    }
+    .bg1 { 
+        margin-bottom: 5px;
+    }
+    .bg2 { 
+        margin-bottom: 5px;
+    }
+  }
+ @media (max-width: 1500px)  {
+    .Landing-backgrounds-images-holder {
+        display: block;
+        right: 10%;
+    }
+    .bg2 { 
+        margin-bottom: 5px;
+    }
+    .bg1 { 
+        margin-bottom: 5px;
+    }
+
+}
+    @media (max-width: 1350px )  {
+        .Landing-backgrounds-images-holder { 
+            display: none;
+        }
+    }
+
+    
+    @media (max-width: 910px )  {
+
+        .list ul { 
+            display: none;
+        }
+          .toggle-btn button {
+            display: none;
+          }
+          .burgermenu {
+            display: block;
+            cursor: pointer;
+            z-index: 11;
+          }
+
+}
+    
+ 
+
+ @media (max-width: 870px )  {
+    .Navigtion-hodler { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 32px 120px 100px 0px;
+    }
+    .Landing-social-media-btns-holder{
+        display: none;
+    }
+}
+
+
+@media (max-width: 750px )  {
+    .Landing-Text-section {
+        text-align: center;
+        align-items: center;
+    }
+
+    .Navigtion-hodler {
+        padding: 32px 50px 100px 0px;
+    }
+    .LandingPage-third { 
+        height: 100vh; width: 100%;
+        padding-left: 50px;
+    }
+    .LandingPage-second { 
+        height: 100vh; width: 100%;
+        padding-left: 50px;
+    }
+    .LandingPage { 
+        height: 100vh; width: 100%;
+        padding-left: 50px;
+    }
+    .LandingPage-fourth{ 
+        height: 100vh; width: 100%;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 660px )  {
+    #Landing-Text-section-h2 { 
+        font-size: 24px;
+    }
+
+    .Landing-btn {
+        padding: 15px 15px 15px 20px;   
+        font-size: 18px;
+    }
+    .Landing-buttons-holder { 
+        display: block;
+        align-items: center;
+        margin-bottom:20px;
+    }
+    .Landing-buttons-holder img{
+        display: none;
+    }
+    .LandingPage-third  { 
+        padding-left: 10px;
+    }
+    .LandingPage-second { 
+        padding-left: 10px;
+    }
+    .LandingPage {
+        padding-left: 10px;
+    }
+    .LandingPage-fourth { 
+        padding-left: 10px;
+    }
+}
+    @media (max-width: 500px )  {
+        .Navigtion-hodler {
+            padding: 32px 50px 50px 0px;
+        }
+        #Landing-Text-section-h2 { 
+            font-size: 18px;
+        }
+        #Landing-Text-section-h1 { 
+            font-size: 42px;
+        }
+        .Landing-btn {
+            padding: 10px ;   
+            font-size: 14px;
+        }
+}
+
+    @media (max-width: 1470px ) { 
+
+        .scetion-box-title h1{       
+            font-size: 38px; 
+            margin-bottom: 5px;   
+        }
+        .scetion-box-title h3{ 
+            font-size: 24px; 
+            margin-bottom: 5px;
+        }
+        .scetion-box-title {
+            text-align: center;
+        }
+        .scetion-box-title button { 
+            padding: 15px;
+            font-size: 14px;
+        }
+        .section-third-holder h1 { 
+            font-size: 38px;   
+        }
+        .section-third-holder h3 {
+            font-size: 24px;
+        }
+        .section-third-holder { 
+            right: 2%;
+        }
+        .section-third-holder-input-nameinput { 
+            padding: 10px;
+        }
+        .section-third-holder-number-nameinput { 
+            padding: 10px;
+        }
+        .section-third-holder-input button { 
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 1250px ) { 
+        .section-box { 
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .section1img img{ 
+            width: 80vw;
+        }           
+        .section-third { 
+            position: relative;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assetsForSections/banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 50vh;
+            
+        }
+        .section-third-holder-text h1 { 
+            color: white
+        }
+        .section-third-holder-text h3 { 
+            color: white;
+        }
+        
+    }
+
+    @media (max-width: 750px ) { 
+        .scetion-box-title h1{
+            font-size: 32px;
+        }
+        .scetion-box-title h3 { 
+            font-size: 18px;
+        }
+        .scetion-box-title button { 
+            font-size: 12px;
+            padding: 2px 5px;
+        }
+        .section-first { 
+            padding: 0px
+        }
+        .section-third-holder-text h1{ 
+            font-size: 32px;
+        }
+
+        .section-third-holder-text h3 { 
+            font-size: 18px;
+        }
+        .section-third-holder{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+            
+        
+        .section-third-holder-input-nameinput { 
+            font-size: 15px;
+        }
+        .section-third-holder-number-nameinput { 
+            font-size: 15px;
+        }
+        .section-third { 
+            height: 80vh;
+            width: 100vw;
+            background-size: cover;
+        }
+        .section-third-holder { 
+            display: flex;
+            align-items: center;
+            position: relative;
+            gap:25px;
+            margin-left: 5%;
+            margin-bottom: 10%;
+            
+        }
+
+    }    
