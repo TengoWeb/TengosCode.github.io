@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;    margin: 0; box-sizing: border-box; list-style: none; scroll-behavior: smooth; text-decoration: none; color: #000000;  
+    
+}
+
+
+
+.contactTextImageBox { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactImage { 
+    height: 70vh;
+    width: 100%;
+}
+
+
+.contatLeftSideBox {
+    border: 2px solid green;
+}
+.contatRightSideBox { 
+    position: relative;
+}
+
+.contatLeftSideBox h1{ 
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 85px;
+}
+.contatLeftSideBox p { 
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(189, 181, 181);
+    margin-bottom: 36px;
+}
+.contatLeftSideBox span { 
+    color: rgb(70, 142, 209);
+}
