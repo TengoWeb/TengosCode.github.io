@@ -2,8 +2,8 @@ import React from 'react';
 import {Navigation} from '../components/navigation'
 import '../styles/contact.css';
 import '../styles/Navbar.css'
-import img123 from '../assetsContact/img(1).webp'
-import wave from '../assetsContact/wave.svg'
+import img123 from '../assetsContact/img.jpg'
+
 
 export function ContactPage() {
   return (
