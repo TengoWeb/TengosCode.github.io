@@ -34,7 +34,7 @@ import burgermenu from '../assetsForLandingPage/Burger.png'
                 </div>
                 <div className='toggle-btn'>
                     <img src={burgermenu}  alt='/' className='burgermenu' />
-                  <button>Sign in</button>
+                  <Link to="/signin"> <button >Sign in</button> </Link>
                 </div>
               </div>
               

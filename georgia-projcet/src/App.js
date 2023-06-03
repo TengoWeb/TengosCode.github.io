@@ -12,14 +12,16 @@ import { Sectionfirst } from './sections/sectionfirst';
 import { SectionSecond } from './sections/sectionsecond';
 import { SectionThird } from './sections/sectionthird';
 import { ScrollRevealComponent } from './components/scrollrevealcomponent';
+import { Signup } from './pages/signup';
 
 function App() {
   const location = useLocation();
-  const hiddenRoutes = ['/contactpage','/reviewpage'];
+  const hiddenRoutes = ['/contactpage','/reviewpage', '/signin'];
   const shouldHideSections = hiddenRoutes.includes(location.pathname);
 
   return (
     <div className="App">
+
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/secondLanding" element={<SecondLanding />} />
@@ -27,7 +29,9 @@ function App() {
         <Route path="/fourthlanding" element={<FourthLanding />} />
         <Route path="/contactpage" element={<ContactPage />} />
         <Route path="/reviewpage" element={<ReviewPage />} />
+        <Route path="/signin" element={<Signup />} />
       </Routes>
+
       <ScrollRevealComponent>
         {!shouldHideSections && (
           <>
